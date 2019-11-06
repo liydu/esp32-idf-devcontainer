@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${CROSS_ROOT}/**",
+                "/work/azure-iot-sdk-c/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\liya\\AppData\\Local\\Arduino15\\packages\\AZ3166\\tools\\**",
+                "C:\\Users\\liya\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\**"
+            ],
+            "forcedInclude": [
+                "C:\\Users\\liya\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.3\\cores\\arduino\\Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+}
